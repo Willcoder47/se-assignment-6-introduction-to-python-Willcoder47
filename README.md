@@ -301,10 +301,10 @@ Dictionary: Best for associating keys with values, providing quick access to val
 Script Demonstrating Basic Operations
 python
 
-# Creating a list of numbers
+### Creating a list of numbers
 numbers = [1, 2, 3, 4, 5]
 
-# Creating a dictionary with key-value pairs
+### Creating a dictionary with key-value pairs
 person = {
     "name": "Alice",
     "age": 30,
@@ -444,24 +444,24 @@ python
 
 import math
 
-# Calculate the square root of a number
+### Calculate the square root of a number
 number = 16
 sqrt_result = math.sqrt(number)
 print(f"The square root of {number} is {sqrt_result}")
 
-# Calculate the sine of an angle (in radians)
+### Calculate the sine of an angle (in radians)
 angle = math.pi / 2  # 90 degrees
 sine_result = math.sin(angle)
 print(f"The sine of {angle} radians is {sine_result}")
 
-# Calculate the cosine of an angle (in radians)
+### Calculate the cosine of an angle (in radians)
 cosine_result = math.cos(angle)
 print(f"The cosine of {angle} radians is {cosine_result}")
 
-# Using the constant pi
+### Using the constant pi
 print(f"The value of pi is {math.pi}")
 
-# Calculate the factorial of a number
+### Calculate the factorial of a number
 factorial_result = math.factorial(5)
 print(f"The factorial of 5 is {factorial_result}")
 Explanation of the Script
@@ -498,12 +498,12 @@ Example Scripts
 Script to Read the Content of a File and Print it to the Console
 python
 
-# Open the file in read mode
+### Open the file in read mode
 with open('example.txt', 'r') as file:
     # Read the entire content of the file
     content = file.read()
 
-# Print the content to the console
+### Print the content to the console
 print(content)
 Explanation:
 
@@ -514,14 +514,14 @@ print(content): Prints the content to the console.
 Script to Write a List of Strings to a File
 python
 
-# List of strings to write to the file
+### List of strings to write to the file
 lines = [
     "First line of text.\n",
     "Second line of text.\n",
     "Third line of text.\n"
 ]
 
-# Open the file in write mode
+### Open the file in write mode
 with open('output.txt', 'w') as file:
     # Write the list of strings to the file
     file.writelines(lines)
@@ -534,7 +534,7 @@ Here’s a complete example combining both scripts:
 
 python
 
-# Writing to the file
+### Writing to the file
 lines_to_write = [
     "This is the first line.\n",
     "This is the second line.\n",
@@ -546,7 +546,7 @@ with open('example_output.txt', 'w') as file:
 
 print("Content written to example_output.txt")
 
-# Reading from the file
+### Reading from the file
 with open('example_output.txt', 'r') as file:
     content = file.read()
 
